@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --c-bg: #0a0e1a;
+  --c-surface: #111827;
+  --c-surface2: #1a2234;
+  --c-border: #1e2d45;
+  --c-ink: #f1f5f9;
+  --c-muted: #64748b;
+  --c-accent: #f97316;
+  --c-accent2: #3b82f6;
+  --c-success: #22c55e;
+  --c-warn: #eab308;
+  --c-danger: #ef4444;
+  --c-low: #22c55e;
+  --c-med: #eab308;
+  --c-high: #f97316;
+  --c-crit: #ef4444;
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--c-bg);
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: var(--font-body);
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--c-bg); }
+::-webkit-scrollbar-thumb { background: var(--c-border); border-radius: 2px; }

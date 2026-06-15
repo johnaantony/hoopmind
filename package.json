@@ -1,0 +1,26 @@
+{
+  "name": "hoopmind",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-powered sideline assistant for basketball coaches",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0"
+  },
+  "homepage": "https://yourusername.github.io/hoopmind",
+  "keywords": ["basketball", "AI", "coaching", "fatigue", "sports-tech"],
+  "license": "MIT"
+}
