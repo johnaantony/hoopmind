@@ -2,7 +2,7 @@
 
 > Real-time decision support for substitutions, timeouts, play calling, and drawing plays. Live NBA box scores. Peer-to-peer video between coaching iPads. Powered by Claude.
 
-**[Live Demo →](https://YOUR_GITHUB_USERNAME.github.io/hoopmind)**
+**[Live Demo →](https://johnaantony.github.io/hoopmind)**
 
 ---
 
@@ -137,7 +137,7 @@ The app only calls the API when the coach taps a button. No background polling, 
 ## Running Locally
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/hoopmind.git
+git clone https://github.com/johnaantony/hoopmind.git
 cd hoopmind
 npm install
 npm run dev
